@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <header>
+        <input type="color" id="colorPicker">
+        <select id="colorScheme">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-light">Monochrome-Dark</option>
+            <option value="monochrome-dark">Monochrome-Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">complement </option>
+            <option value="analogic-complement">Analogic-Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+
+        <button id="generateBtn">Get Color Scheme</button>
+    </header>
+
+    <main>
+        <div id="colorList"></div>
+
+    </main>
     <script src="main.js" defer></script>
 </body>
 </html>
